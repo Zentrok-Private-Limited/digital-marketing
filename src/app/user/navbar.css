@@ -1,0 +1,22 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.text-maroon {
+  color: #800000;
+}
+
+/* ✨ Smooth dropdown fade animation */
+.relative .absolute {
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
