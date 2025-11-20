@@ -19,16 +19,16 @@
   </div>
 </div>
 
-<nav class="sticky top-0 w-full z-50">
-  <div class="bg-white shadow-md">
-    <div class="flex items-center justify-between px-4 py-3">
+<nav class="sticky top-0 w-full z-40">
+  <div class="bg-[#470000] shadow-md">
+    <div class="flex items-center justify-between px-4">
       <!-- Logo -->
-      <a routerLink="" class="flex items-center bg-[#800000] text-white px-4 py-2 rounded-tr-[25px]">
-        <span class="text-2xl font-bold">Digital Marketing</span>
+      <a routerLink="" class="flex items-center">
+        <img src="logo1.png" class="h-[80px]" alt="">
       </a>
 
       <!-- Hamburger Button (mobile) -->
-      <button (click)="toggleMenu()" class="md:hidden p-2 text-gray-800 hover:text-[#800000]">
+      <button (click)="toggleMenu()" class="md:hidden p-2 text-gray-100 hover:text-[#800000]">
         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
           stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 6h16M4 12h16M4 18h16" />
@@ -37,11 +37,11 @@
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex space-x-8 font-bold text-[#800000] text-base items-center">
-        <a routerLink="/" class="hover:text-red-700">Home</a>
-        <a routerLink="/about" class="hover:text-red-700">About</a>
-        <a routerLink="/portfolio" class="hover:text-red-700">Portfolio</a>
-        <a routerLink="/service" class="hover:text-red-700">Services</a>
-        <a routerLink="/contact" class="hover:text-red-700">Contact</a>
+        <a routerLink="/" class="text-white hover:text-red-700">Home</a>
+        <a routerLink="/about" class="text-white hover:text-red-700">About</a>
+        <a routerLink="/portfolio" class="text-white hover:text-red-700">Portfolio</a>
+        <a routerLink="/service" class="text-white hover:text-red-700">Services</a>
+        <a routerLink="/contact" class="text-white hover:text-red-700">Contact</a>
       </div>
     </div>
 
